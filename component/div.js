@@ -1,5 +1,6 @@
-const Div = () =>{
-    console.log("6/2=",6/2)
+const Div = (s,t) =>{
+    const division = s/t;
+    console.log(s + ' / ' + t + ' = ' + division)
 };
 
 

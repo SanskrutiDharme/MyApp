@@ -1,5 +1,6 @@
-const Add = () => {
-  console.log('2+2 =', 2+2);
+const Add = (a,b) => {
+  const addition = a+b;
+  console.log(a + ' + ' + b  + ' = ' + addition);
 };
 
 export default Add;

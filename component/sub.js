@@ -1,6 +1,8 @@
-export const Sub = () => {
-    console.log('3-2 =',3-2)
+ const Sub = (p,q) => {
+    const substraction = p-q;
+    console.log(p + ' - ' + q + ' = ' + substraction)
 
 };
   
 
+export default Sub;

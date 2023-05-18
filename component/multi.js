@@ -1,5 +1,6 @@
-const Multi = () => {
-    console.log("6*2=", 6*2)
+const Multi = (x,y) => {
+    const multiply =  x * y ;
+    console.log(x + ' * ' + y + ' = ' +  multiply)
 };
 
 
